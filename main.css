@@ -1,0 +1,13 @@
+main{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+     grid-template-columns: repeat(10, 1fr);
+     grid-gap: 20px;
+     grid-auto-rows: minmax(100px, auto);
+}
+
+div {
+    background-color: blueviolet;
+    height: 40px;
+    width: 80px;
+}
